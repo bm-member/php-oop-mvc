@@ -37,6 +37,18 @@ __Detail Post__
 ### Installation
 
 - git clone
+- config `core/config.php`
+```
+// Application 
+define('APP_URL', 'http://localhost/php-oop-mvc/pubic');
+
+// database
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'php_oop_mvc');
+```
 - composer install
 - import db.sql
 - entry point `public/index.php`
+- 
