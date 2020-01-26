@@ -51,4 +51,3 @@ define('DB_NAME', 'php_oop_mvc');
 - composer install
 - import db.sql
 - entry point `public/index.php`
-- 
